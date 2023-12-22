@@ -1,5 +1,5 @@
 <div align="center">
-![Ícone do Repositório](RepoIcon.png)
+<img src="RepoIcon.png" alt="Ícone do Repositório">
 </div>
 # Testes de Desempenho de Engines de Jogos
 
