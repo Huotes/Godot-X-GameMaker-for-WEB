@@ -6,7 +6,7 @@ Este repositório contém os resultados e os detalhes dos testes de desempenho r
 
 ### Visão Geral
 
-O teste de estresse Godot foi conduzido utilizando a engine de código aberto Godot. O objetivo principal foi avaliar o desempenho em termos de renderização, física e manipulação de ativos em condições de carga elevada.
+O teste de estresse Godot foi conduzido utilizando a engine de código aberto Godot. O objetivo principal foi avaliar o desempenho em termos de renderização, física e manipulação de ativos em condições de carga elevada. Foram duas cenas sendo utilizadas para esse processo e um total de 4 nodes ao todo para garantir o funcionamento desejado.
 
 ### Como Testar
 
@@ -16,7 +16,7 @@ Para executar o teste de estresse Godot, acesse o seguinte link: [Godot Stress T
 
 ### Visão Geral
 
-O teste de estresse do GameMaker foi realizado para analisar a capacidade da engine em lidar com cargas intensivas de trabalho, concentrando-se em aspectos como processamento de lógica do jogo, renderização gráfica e otimização de recursos.
+O teste de estresse do GameMaker foi realizado para analisar a capacidade da engine em lidar com cargas intensivas de trabalho, concentrando-se em aspectos como processamento de lógica do jogo, renderização gráfica e otimização de recursos. Criei dois objetos um para criar 10.000 cubos a cada segundo, e outro sendo o proprio cubo que vai ser gerado.  
 
 ### Como Testar
 
