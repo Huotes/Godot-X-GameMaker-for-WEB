@@ -11,7 +11,7 @@ Este repositório contém os resultados e os detalhes dos testes de desempenho r
 
 ### Visão Geral
 
-O teste de estresse Godot foi conduzido utilizando a engine de código aberto Godot. O objetivo principal foi avaliar o desempenho em termos de renderização, física e manipulação de ativos em condições de carga elevada. Foram duas cenas sendo utilizadas para esse processo e um total de 4 nodes ao todo para garantir o funcionamento desejado.
+O teste de estresse Godot foi conduzido utilizando a engine de código aberto Godot na versão 3.5.3 Stable. O objetivo principal foi avaliar o desempenho em termos de renderização, física e manipulação de ativos em condições de carga elevada. Foram duas cenas sendo utilizadas para esse processo e um total de 4 nodes ao todo para garantir o funcionamento desejado.
 
 ### Como Testar
 
