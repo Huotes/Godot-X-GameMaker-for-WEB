@@ -1,4 +1,4 @@
-![Ícone do Repositório](repoicon.png)
+![Ícone do Repositório](RepoIcon.png)
 
 # Testes de Desempenho de Engines de Jogos
 
