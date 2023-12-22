@@ -1,3 +1,5 @@
+![Ícone do Repositório](repoicon.png)
+
 # Testes de Desempenho de Engines de Jogos
 
 Este repositório contém os resultados e os detalhes dos testes de desempenho realizados nas engines de jogos Godot e GameMaker. Os testes visam avaliar o desempenho e a eficiência dessas plataformas dentro do cenário WEB.
