@@ -1,48 +1,42 @@
 <div align="center">
-<img src="RepoIcon.png" alt="Ícone do Repositório">
+<img src="RepoIcon.png" alt="Repository Icon">
 </div>
 
+# Performance Tests for Godot vs GameMaker Studio 2 on the Web
 
-# Testes de Desempenho para WEB Godot VS GameMaker Studio 2
-
-Este repositório contém os resultados e os detalhes dos testes de desempenho realizados nas engines de jogos Godot e GameMaker. Os testes visam avaliar o desempenho e a eficiência dessas plataformas dentro do cenário WEB.
+This repository contains the results and details of performance tests conducted on the Godot and GameMaker game engines. The tests aim to evaluate the performance and efficiency of these platforms in a web environment.
 
 ## Godot Stress Test
 
-### Visão Geral
+### Overview
 
-O teste de estresse Godot foi conduzido utilizando a engine de código aberto Godot na versão 3.5.3 Stable. O objetivo principal foi avaliar o desempenho em termos de renderização, física e manipulação de ativos em condições de carga elevada. Foram duas cenas sendo utilizadas para esse processo e um total de 4 nodes ao todo para garantir o funcionamento desejado.
+The Godot stress test was conducted using the open-source Godot engine version 3.5.3 Stable. The primary goal was to assess performance in terms of rendering, physics, and asset handling under high load conditions. Two scenes were used for this process, with a total of 4 nodes to ensure the desired functionality.
 
-### Como Testar
+### How to Test
 
-Para executar o teste de estresse Godot, acesse o seguinte link: [Godot Stress Test](https://huotes.itch.io/godot-stress-test)
+To run the Godot stress test, access the following link: [Godot Stress Test](https://huotes.itch.io/godot-stress-test)
 
 ## GameMaker Stress Test
 
-### Visão Geral
+### Overview
 
-O teste de estresse do GameMaker foi realizado para analisar a capacidade da engine em lidar com cargas intensivas de trabalho, concentrando-se em aspectos como processamento de lógica do jogo, renderização gráfica e otimização de recursos. Criei dois objetos um para criar 10.000 cubos a cada segundo, e outro sendo o proprio cubo que vai ser gerado.  
+The GameMaker stress test was performed to analyze the engine's ability to handle intensive workloads, focusing on aspects such as game logic processing, graphic rendering, and resource optimization. I created two objects, one to create 10,000 cubes every second, and the other being the cube itself that will be generated.
 
-### Como Testar
+### How to Test
 
-Para realizar o teste de estresse no GameMaker, acesse o link: [GameMaker Stress Test](https://huotes.itch.io/gamemaker-stress-test)
+To perform the stress test on GameMaker, access the link: [GameMaker Stress Test](https://huotes.itch.io/gamemaker-stress-test)
 
-## Resultados e Análises
+## Results and Analysis
 
-Os resultados detalhados, métricas de desempenho e análises aprofundadas podem ser encontrados nos diretórios correspondentes a cada engine.
+Detailed results, performance metrics, and in-depth analyses can be found in the corresponding directories for each engine.
 
-- [Resultados Godot](./godot_results)
-- [Resultados GameMaker](./gamemaker_results)
+- [Godot Results](./godot_results)
+- [GameMaker Results](./gamemaker_results)
 
-## Configuração do Ambiente de Teste
+## Test Environment Configuration
 
-Os testes foram conduzidos em um ambiente controlado, utilizando hardware específico e seguindo procedimentos padronizados para garantir a reprodutibilidade.
+The tests were conducted through my itch.io page, where I placed the games on my profile and decided to see which game overloaded it first.
 
-### Requisitos de Sistema
+## Contribution
 
-- [Lista de requisitos do Godot](./docs/godot_requirements.md)
-- [Lista de requisitos do GameMaker](./docs/gamemaker_requirements.md)
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com seus próprios testes, melhorias no código ou correções de bugs. Consulte o arquivo [CONTRIBUTING.md](./CONTRIBUTING.md) para obter informações sobre como contribuir.
+Feel free to contribute with your own tests, code improvements, or bug fixes. Refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for information on how to contribute.
